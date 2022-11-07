@@ -63,13 +63,6 @@ class DisputeSummary extends React.Component {
                 title="evidence-display"
               />
             )}
-            {metaevidenceJSON.arbitrableInterfaceURI && !metaevidenceJSON.arbitrableInterfaceURI.includes("resolve.kleros.io") && (
-              <div className="my-3">
-                <a href={metaEvidenceJSON.arbitrableInterfaceURI} className="purple-inverted">
-                  Go to arbitrable application from here
-                </a>
-              </div>
-            )}
 
             {metaevidenceJSON.aliases && (
               <Row>
