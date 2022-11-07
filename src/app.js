@@ -175,7 +175,7 @@ class App extends React.Component {
       question: options.question,
       rulingOptions: options.rulingOptions,
       fileURI: options.primaryDocument,
-      dynamicScriptURI: "/ipfs/QmZZHwVaXWtvChdFPG4UeXStKaC9aHamwQkNTEAfRmT2Fj",
+      dynamicScriptURI: "/ipfs/QmP41Jx2wjCGjVZ1ip3GsZBmxpvhonLEzqJMoLMfYMkDPX",
     };
 
     const ipfsHashMetaEvidenceObj = await ipfsPublish("metaEvidence.json", this.encoder.encode(JSON.stringify(metaevidence)));
